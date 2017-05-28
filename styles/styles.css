@@ -1,0 +1,60 @@
+
+.axis .domain {
+  display: none;
+}
+
+h2{
+    text-align: left;
+    padding-left: 19%;
+}
+
+
+#barChartDiv, #panels, #panels-internal {
+    display: inline;
+}
+
+#barChartDiv{
+    position: relative;
+    left: 12%;
+}
+
+#panels {
+    position: relative;
+    bottom: 400px;
+    left:15%;
+
+    display: table-cell; 
+}   
+select{
+    display: list-item; width:100%;
+    
+}
+
+#lineChartDiv {
+    position: relative;
+    top: -250px; 
+    left: 15%;   
+}
+
+h2 {
+    background: linear-gradient(180deg, grey, #666666);
+    color: white;
+    padding-left: 25%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    position: relative;
+    top: 10%px;
+    margin: 0;
+}
+
+* {
+    font-family: Arial;
+}
+
+#tableLegend {
+    font-size: 8;
+    width: 200px;
+    float:left;
+    padding: 0;
+    margin: 0;
+}
